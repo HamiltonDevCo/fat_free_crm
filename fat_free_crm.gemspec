@@ -21,12 +21,12 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version = '>= 2.4.0'
   gem.license = 'MIT'
 
-  gem.add_dependency 'rails', '~> 6.0.0'
+  gem.add_dependency 'rails', '>= 6.0.0'
   gem.add_dependency 'rails-i18n'
   gem.add_dependency 'rails-observers'
   gem.add_dependency 'activemodel-serializers-xml'
   gem.add_dependency 'sprockets-rails',     '>= 3.0.0'
-  gem.add_dependency 'responders',          '~> 3.0'
+  gem.add_dependency 'responders',          '>= 3.0'
   gem.add_dependency 'jquery-rails'
   gem.add_dependency 'jquery-migrate-rails'
   gem.add_dependency 'jquery-ui-rails'
@@ -34,10 +34,10 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'simple_form'
   gem.add_dependency 'will_paginate'
   gem.add_dependency 'paperclip'
-  gem.add_dependency 'paper_trail',         '~> 12.0.0'
-  gem.add_dependency 'devise',              '~> 4.6'
-  gem.add_dependency 'devise-encryptable',  '~> 0.2.0'
-  gem.add_dependency 'acts_as_commentable', '~> 6.0.0'
+  gem.add_dependency 'paper_trail',         '>= 12.0.0'
+  gem.add_dependency 'devise',              '>= 4.6'
+  gem.add_dependency 'devise-encryptable',  '>= 0.2.0'
+  gem.add_dependency 'acts_as_commentable', '>= 6.0.0'
   gem.add_dependency 'acts-as-taggable-on', '>= 3.4.3'
   gem.add_dependency 'dynamic_form'
   gem.add_dependency 'haml'
@@ -52,7 +52,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'rails3-jquery-autocomplete'
   gem.add_dependency 'thor'
   gem.add_dependency 'rails_autolink'
-  gem.add_dependency 'coffee-script-source', '~> 1.8', '>= 1.8.0' # pegged until https://github.com/jashkenas/coffeescript/issues/3829 is resolved
+  gem.add_dependency 'coffee-script-source', '>= 1.8', '>= 1.8.0' # pegged until https://github.com/jashkenas/coffeescript/issues/3829 is resolved
   gem.add_dependency 'country_select'
 
   # FatFreeCRM has released it's own versions of the following gems:
