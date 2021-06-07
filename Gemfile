@@ -87,7 +87,7 @@ group :heroku do
 end
 
 gem 'responds_to_parent', git: 'https://github.com/CloCkWeRX/responds_to_parent.git', branch: 'patch-1' # Temporarily pointed at git until https://github.com/zendesk/responds_to_parent/pull/6 is released
-gem 'acts_as_commentable', git: 'https://github.com/HamiltonDevCo/acts_as_commentable.git', branch: 'rails-6' # Our fork
+gem 'acts_as_commentable', github: 'HamiltonDevCo/acts_as_commentable', branch: 'rails-6'
 gem 'sass-rails', '~> 5.0.3' # sass-rails 6 requires GCC 4.5+
 gem 'coffee-rails'
 gem 'uglifier'
